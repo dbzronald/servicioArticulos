@@ -62,8 +62,8 @@ public class ArticuloService {
         articuloRepository.save(articulo);
     }
 
-    public long contarArticulos() {
+    public int contarArticulos() {
 
-        return articuloRepository.count();
+        return (int) articuloRepository.count();
     }
 }

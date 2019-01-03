@@ -43,7 +43,7 @@ public class ArticuloController {
     }
 
     @RequestMapping(value = "/articulos", method = RequestMethod.DELETE, params = {"id"})
-    public ResponseEntity<Articulo> borrarArticulo(@RequestParam("id") Long id) {
+    public ResponseEntity<Articulo> borrarArticulo(@RequestParam("id") int id) {
 
         Articulo articulo = articuloServices.buscarPorId(id);
         articuloServices.borrarArticulo(articulo);
@@ -52,7 +52,7 @@ public class ArticuloController {
     }
 
     @RequestMapping(value = "/articulos/comprar", method = RequestMethod.PUT, params = {"id", "cantidad"})
-    public ResponseEntity<Articulo> comprarArticulos(@RequestParam("id") Long id, @RequestParam("cantidad") int cantidad) {
+    public ResponseEntity<Articulo> comprarArticulos(@RequestParam("id") int id, @RequestParam("cantidad") int cantidad) {
 
         Articulo articulo = articuloServices.buscarPorId(id);
         articuloServices.restarCantidadArticulo(articulo, cantidad);
@@ -67,7 +67,7 @@ public class ArticuloController {
     }
 
     @GetMapping("/articulos/{id}")
-    public Articulo buscarPorId(@PathVariable Long id) {
+    public Articulo buscarPorId(@PathVariable int id) {
         return articuloServices.buscarPorId(id);
     }
 
