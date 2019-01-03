@@ -1,6 +1,6 @@
-package com.web.articulos.Repository;
+package com.web.articulos.repository;
 
-import com.web.articulos.Entity.Articulo;
+import com.web.articulos.entity.Articulo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

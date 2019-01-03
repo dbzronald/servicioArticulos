@@ -1,7 +1,7 @@
-package com.web.articulos.Controller;
+package com.web.articulos.controller;
 
-import com.web.articulos.Entity.Articulo;
-import com.web.articulos.Services.ArticuloService;
+import com.web.articulos.entity.Articulo;
+import com.web.articulos.services.ArticuloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

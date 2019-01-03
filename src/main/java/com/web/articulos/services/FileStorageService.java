@@ -1,4 +1,4 @@
-package com.web.articulos.Services;
+package com.web.articulos.services;
 
 import com.web.articulos.exception.FileStorageException;
 import com.web.articulos.exception.MyFileNotFoundException;

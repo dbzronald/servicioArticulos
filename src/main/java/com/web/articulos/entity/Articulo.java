@@ -1,4 +1,4 @@
-package com.web.articulos.Entity;
+package com.web.articulos.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -1,8 +1,8 @@
-package com.web.articulos.Services;
+package com.web.articulos.services;
 
-import com.web.articulos.Entity.Articulo;
-import com.web.articulos.Repository.ArticuloPagRepository;
-import com.web.articulos.Repository.ArticuloRepository;
+import com.web.articulos.entity.Articulo;
+import com.web.articulos.repository.ArticuloPagRepository;
+import com.web.articulos.repository.ArticuloRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

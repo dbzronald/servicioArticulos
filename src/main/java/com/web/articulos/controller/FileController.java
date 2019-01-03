@@ -1,6 +1,6 @@
-package com.web.articulos.Controller;
+package com.web.articulos.controller;
 
-import com.web.articulos.Services.FileStorageService;
+import com.web.articulos.services.FileStorageService;
 import com.web.articulos.payload.UploadFileResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
